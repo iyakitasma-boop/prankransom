@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALAH KENA PRANK KAU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-skull-crossbones"></i> WALAH KENA PRANK KAU</h1>
+        </header>
+
+        <main>
+            <div class="message-box">
+                <div class="warning-item">
+                    <i class="fas fa-server"></i>
+                    <div>
+                        <h3>X Mana ada VPS 16GB gratis</h3>
+                        <p class="subtext">tinggal klik</p>
+                    </div>
+                </div>
+
+                <div class="warning-item">
+                    <i class="fas fa-lock"></i>
+                    <div>
+                        <h3>File lu lagi "di-encrypt"</h3>
+                        <p class="subtext">Hayolo Gimana</p>
+                    </div>
+                </div>
+
+                <div class="warning-item">
+                    <i class="fas fa-grin-beam"></i>
+                    <div>
+                        <h3>Jangan panik, ini cuma real 😊</h3>
+                        <p class="subtext">Santai aja, ini cuma simulasi</p>
+                    </div>
+                </div>
+
+                <div class="warning-item">
+                    <i class="fas fa-key"></i>
+                    <div>
+                        <h3>Masukin KEY 6 DIGIT buat kabur</h3>
+                        <p class="subtext">Kalo nggak, ya terperangkap di sini</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timer-section">
+                <div class="timer-header">
+                    <div class="green-dot"></div>
+                    <h2>Waktu tersisa: <span id="timer">60</span> detik</h2>
+                </div>
+                <div class="timer-bar">
+                    <div class="timer-progress" id="timerBar"></div>
+                </div>
+                <p class="timer-warning">Setelah waktu habis, semua file akan "terhapus permanen". Hahaha.</p>
+            </div>
+
+            <div class="unlock-section">
+                <h2><i class="fas fa-unlock-alt"></i> UNLOCK</h2>
+                <div class="input-section">
+                    <input type="text" id="keyInput" maxlength="6" placeholder="Masukkan 6 digit KEY">
+                    <button id="unlockBtn"><i class="fas fa-paper-plane"></i> Coba Buka</button>
+                </div>
+                <div class="hint">
+                    <p><i class="fas fa-lightbulb"></i> Hint: Coba angka sederhana kayak tanggal lahir atau 123456</p>
+                </div>
+                <div id="resultMessage"></div>
+            </div>
+
+            <div class="instructions">
+                <p><i class="fas fa-hand-point-up"></i> <strong>Tarik dari atas dan ketuk tombol kembali untuk keluar dari mode layar penuh.</strong></p>
+                <p class="small">Ini cuma prank website, nggak beneran ngencrypt file lu. Jangan serius amat.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>VoidsWare Prank Simulator | © 2023 | <span id="randomCountry"></span></p>
+        </footer>
+    </div>
+
+    <div class="fullscreen-notice" id="fullscreenNotice">
+        <p>Kamu dalam mode layar penuh. Tekan ESC atau tarik dari atas untuk keluar.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
